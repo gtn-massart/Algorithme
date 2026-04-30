@@ -7,6 +7,13 @@
   C'est un tri EN PLACE (qui n'utilise pas de mémoire supplémentaire car on modifie directement le tableau à trier)
 
   C'est un tri STABLE car il ne modifie pas l'ordre des éléments égaux.
+
+  PARTICULARITÉS :
+    - Pire algorithme de tri existant. Performances réelles horrible.
+
+  CAS D'UTILISATION :
+    - Apprentissage
+    - Utilisé en infographie pour corriger des tableux presque triés avec un complexité linéaire (2n)
 */
 
 const arr = [22, 1, 7, 33, 12];
