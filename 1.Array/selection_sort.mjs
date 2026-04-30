@@ -4,6 +4,13 @@
   C'est un tri EN PLACE (qui n'utilise pas de mémoire supplémentaire car on modifie directement le tableau à trier)
 
   C'est un tri STABLE car il ne modifie pas l'ordre des éléments égaux.
+
+  PARTICULARITÉS :
+    - Peu d'écritures (n-1 échanges dans le pire des cas)
+
+  CAS D'UTILISATION :
+    - Apprentissage.
+    - Éléments coûteux à déplacer (mais tris par cycle plus optimal pour ce cas)
 */
 
 const arr = [22, 1, 7, 33, 12];
