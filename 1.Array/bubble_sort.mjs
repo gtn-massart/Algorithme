@@ -1,3 +1,14 @@
+/*
+  Le tri à bulles est un algorithme de tri par comparaison.
+
+  Il doit son nom au fait qu'il déplace rapidement les plus grands éléments vers la fin du tableau. 
+  Comme les plus grosses bulles qui remontent plus vite à la surface.
+
+  C'est un tri EN PLACE (qui n'utilise pas de mémoire supplémentaire car on modifie directement le tableau à trier)
+
+  C'est un tri STABLE car il ne modifie pas l'ordre des éléments égaux.
+*/
+
 const arr = [22, 1, 7, 33, 12];
 
 function bubbleSort(array) {
