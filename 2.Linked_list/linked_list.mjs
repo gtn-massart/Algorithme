@@ -36,7 +36,7 @@ class LinkedList {
 
   add(value, position) {
     if (position < 0 || position > this.size) {
-      throw new Error("Wrong position");
+      throw new Error("Index out of limits");
     } else if (position === 0) {
       this.head = new Node(value, this.head);
     } else {
